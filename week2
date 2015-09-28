@@ -1,5 +1,4 @@
 #tic tac toe
-
 print('   |   |')
 print('-----------')
 print('   |   |')
@@ -8,7 +7,6 @@ print('   |   |')
 
 
 #tic tac toe variable
-
 vert = "   |   |"
 hori = "-----------"
 
@@ -20,7 +18,6 @@ print vert
 
 
 #larger number
-
 x = 54
 y = 23
 
@@ -33,17 +30,16 @@ z = 4
 print max(x,y,z)
 
 #write in english
-
-#'a' equals a random number between 1 & 11, 'b' equals zero. 
-#while a does not equal b: a prompt What? 'b' equals whatever integer the user inputs
-#if the absolute value (positive) of 'a' (random number between 1-11) minus 'b', is greater than 4
-	#print 'Pfft'
-#if the absolute value (positive) of 'a' (random number between 1-11) minus 'b', is greater than 2
-	#print 'Meh'
-#if the absolute value (positive) of 'a' (random number between 1-11) minus 'b', is greater than 0
-	#print 'Hmmm'
-#if anything else
-    #print "OK"    
+"""'a' equals a random number between 1 & 11, 'b' equals zero. 
+while a does not equal b: a prompt What? 'b' equals whatever integer the user inputs
+if the absolute value (positive) of 'a' (random number between 1-11) minus 'b', is greater than 4
+    print 'Pfft'
+if the absolute value (positive) of 'a' (random number between 1-11) minus 'b', is greater than 2
+    print 'Meh'
+if the absolute value (positive) of 'a' (random number between 1-11) minus 'b', is greater than 0
+    print 'Hmmm'
+if anything else
+    print 'OK'""" 
 
 import random
 a = random.choice(range(1,11))
@@ -58,3 +54,10 @@ while (a != b):
         print "Hmmmm"
     else:
         print "OK"
+
+#Vowel Check
+char_in = input("Enter a character:")
+if char_in == 'a' or char_in == 'e' or char_in == 'i' or char_in == 'o' or char_in == 'u':
+    print char_in
+else:
+    print "NOPE"
