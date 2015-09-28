@@ -34,7 +34,7 @@ print max(x,y,z)
 
 #write in english
 
-'a' equals a random number between 1 & 11, 'b' equals zero. 
+#'a' equals a random number between 1 & 11, 'b' equals zero. 
 #while a does not equal b: a prompt What? 'b' equals whatever integer the user inputs
 #if the absolute value (positive) of 'a' (random number between 1-11) minus 'b', is greater than 4
 	#print 'Pfft'
